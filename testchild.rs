@@ -1,8 +1,6 @@
-#rusty_todo
-  use std::io::{self, Write};
-use std::fs::{OpenOptions, File};
-use std::path::Path;
+#rusty todo
 use std::collections::HashMap;
+use std::io::{self, Write};
 
 #[derive(Debug)]
 struct Task {
